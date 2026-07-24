@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+audit_findings_report.xlsx
+audit_memo.pdf
+sample_journal_entries.csv
+sample_trial_balance.csv
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
