@@ -1,0 +1,192 @@
+{
+  "population": {
+    "total_journal_entries": 1223,
+    "total_monetary_value": 4894038.01,
+    "seeded_anomalies": 23
+  },
+  "benford": {
+    "chi2_stat": 17.623,
+    "p_value": 0.02423,
+    "mad": 0.00883,
+    "mad_conclusion": "Qəbul edilə bilən uyğunluq (Acceptable conformity)",
+    "table": [
+      {
+        "first_digit": 1,
+        "observed_count": 380,
+        "observed_pct": 31.07,
+        "expected_pct": 30.1,
+        "difference_pct": 0.97
+      },
+      {
+        "first_digit": 2,
+        "observed_count": 230,
+        "observed_pct": 18.81,
+        "expected_pct": 17.61,
+        "difference_pct": 1.2
+      },
+      {
+        "first_digit": 3,
+        "observed_count": 129,
+        "observed_pct": 10.55,
+        "expected_pct": 12.49,
+        "difference_pct": -1.95
+      },
+      {
+        "first_digit": 4,
+        "observed_count": 117,
+        "observed_pct": 9.57,
+        "expected_pct": 9.69,
+        "difference_pct": -0.12
+      },
+      {
+        "first_digit": 5,
+        "observed_count": 91,
+        "observed_pct": 7.44,
+        "expected_pct": 7.92,
+        "difference_pct": -0.48
+      },
+      {
+        "first_digit": 6,
+        "observed_count": 79,
+        "observed_pct": 6.46,
+        "expected_pct": 6.69,
+        "difference_pct": -0.24
+      },
+      {
+        "first_digit": 7,
+        "observed_count": 71,
+        "observed_pct": 5.81,
+        "expected_pct": 5.8,
+        "difference_pct": 0.01
+      },
+      {
+        "first_digit": 8,
+        "observed_count": 48,
+        "observed_pct": 3.92,
+        "expected_pct": 5.12,
+        "difference_pct": -1.19
+      },
+      {
+        "first_digit": 9,
+        "observed_count": 78,
+        "observed_pct": 6.38,
+        "expected_pct": 4.58,
+        "difference_pct": 1.8
+      }
+    ]
+  },
+  "jet": {
+    "unique_flagged_entries": 556,
+    "summary": [
+      {
+        "Test": "Həftə Sonu Yazıları",
+        "Aşkarlanan_Yazı_Sayı": 341
+      },
+      {
+        "Test": "Dəyirmi Məbləğlər",
+        "Aşkarlanan_Yazı_Sayı": 7
+      },
+      {
+        "Test": "Təsdiq Həddinə Yaxın",
+        "Aşkarlanan_Yazı_Sayı": 13
+      },
+      {
+        "Test": "Dövr Sonu Yazıları",
+        "Aşkarlanan_Yazı_Sayı": 17
+      },
+      {
+        "Test": "Təkrarlanan Yazılar",
+        "Aşkarlanan_Yazı_Sayı": 6
+      },
+      {
+        "Test": "Menecer Yazıları",
+        "Aşkarlanan_Yazı_Sayı": 258
+      }
+    ]
+  },
+  "ml_scoring": {
+    "total_entries": 1223,
+    "seeded_anomalies": 23,
+    "seeded_caught_in_high_or_critical": 16,
+    "seeded_recall_pct": 69.57,
+    "tier_counts": {
+      "Low Risk": 667,
+      "Moderate Risk": 468,
+      "High Risk": 80,
+      "Critical Risk": 8
+    },
+    "mean_score_normal": 18.15,
+    "mean_score_seeded": 59.17
+  },
+  "ratios": [
+    {
+      "Dövr": "Əvvəlki",
+      "Aktivlərin_Cəmi": 1328718.98,
+      "Öhdəliklərin_Cəmi": 1041931.11,
+      "Kapital": 479434.69,
+      "Gəlir": 744841.62,
+      "Xalis_Mənfəət": -705776.1,
+      "Cari_Likvidlik_Əmsalı": 0.46,
+      "Maliyyə_Asılılığı (Debt/Assets)": 0.784,
+      "Debt_to_Equity": 2.173,
+      "Xalis_Mənfəət_Marjı (%)": -94.76,
+      "ROA (%)": -53.12,
+      "ROE (%)": -147.21
+    },
+    {
+      "Dövr": "Cari",
+      "Aktivlərin_Cəmi": 1271663.07,
+      "Öhdəliklərin_Cəmi": 929500.21,
+      "Kapital": 514005.1,
+      "Gəlir": 698046.19,
+      "Xalis_Mənfəət": -586231.19,
+      "Cari_Likvidlik_Əmsalı": 0.53,
+      "Maliyyə_Asılılığı (Debt/Assets)": 0.731,
+      "Debt_to_Equity": 1.808,
+      "Xalis_Mənfəət_Marjı (%)": -83.98,
+      "ROA (%)": -46.1,
+      "ROE (%)": -114.05
+    }
+  ],
+  "significant_variances": [
+    {
+      "account_code": "1500",
+      "account_name": "Əsas Vəsaitlər",
+      "account_type": "Asset",
+      "balance_prior": 583317.71,
+      "balance_current": 490035.22,
+      "dəyişiklik": -93282.48999999999,
+      "dəyişiklik_faiz": -15.99,
+      "qeyri_adi_varyasiya": true
+    },
+    {
+      "account_code": "2200",
+      "account_name": "Uzunmüddətli Öhdəliklər",
+      "account_type": "Liability",
+      "balance_prior": 439021.49,
+      "balance_current": 330190.75,
+      "dəyişiklik": -108830.73999999999,
+      "dəyişiklik_faiz": -24.79,
+      "qeyri_adi_varyasiya": true
+    }
+  ],
+  "three_way_match": {
+    "total_pos": 150,
+    "total_flagged": 48,
+    "status_breakdown": {
+      "UYĞUNDUR": 102,
+      "AÇIQ SİFARİŞ - Qaimə yoxdur": 18,
+      "UYĞUNSUZLUQ - Qaimə məbləği PO-dan fərqlənir": 17,
+      "ÖDƏNİLMƏYİB - Qaimə var, ödəniş yoxdur": 13
+    }
+  },
+  "sampling": {
+    "recommended_size": 60,
+    "random_count": 60,
+    "random_value_pct": 4.12,
+    "systematic_count": 60,
+    "systematic_value_pct": 2.36,
+    "mus_count": 55,
+    "mus_value_pct": 41.03
+  }
+}
